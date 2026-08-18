@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ÉLITE | Luxury Fine Dining</title>
+
+    <link rel="stylesheet" href="style5.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo">ÉLITE</div>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#story">Our Story</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#reserve">Reserve</a></li>
+        </ul>
+
+        <a href="#reserve" class="nav-btn">BOOK A TABLE</a>
+    </nav>
+
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="subtitle">FINE DINING • EXTRAORDINARY MOMENTS</p>
+
+            <h1>
+                A Taste of<br>
+                <span>Luxury</span>
+            </h1>
+
+            <p class="description">
+                Experience exceptional flavours, elegant surroundings,
+                and unforgettable moments at ÉLITE.
+            </p>
+
+            <a href="#reserve" class="gold-btn">
+                RESERVE YOUR TABLE
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- OUR STORY -->
+    <section class="story" id="story">
+
+        <div class="story-image">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80"
+                 alt="Luxury Restaurant">
+        </div>
+
+        <div class="story-content">
+
+            <p class="gold-text">OUR PHILOSOPHY</p>
+
+            <h2>
+                Where Every Detail<br>
+                Is an Experience
+            </h2>
+
+            <div class="gold-line"></div>
+
+            <p>
+                At ÉLITE, dining is more than simply enjoying a meal.
+                Every detail is carefully designed to create an unforgettable
+                experience of elegance and exceptional taste.
+            </p>
+
+            <p>
+                From our luxurious interiors to every beautifully prepared
+                dish, we believe in creating moments worth remembering.
+            </p>
+
+            <a href="#menu" class="text-link">
+                EXPLORE OUR MENU →
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- MENU -->
+    <section class="menu" id="menu">
+
+        <p class="gold-text center">A CULINARY EXPERIENCE</p>
+
+        <h2 class="section-title">
+            Signature Selections
+        </h2>
+
+
+        <div class="menu-grid">
+
+            <!-- DISH 1 -->
+            <div class="menu-card">
+
+                <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80"
+                     alt="Luxury Pasta">
+
+                <div class="card-content">
+
+                    <div class="dish-number">01</div>
+
+                    <h3>Truffle Royale</h3>
+
+                    <p>
+                        Handcrafted pasta with black truffle,
+                        parmesan cream and premium ingredients.
+                    </p>
+
+                    <span>₹1,850</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- DISH 2 -->
+            <div class="menu-card featured">
+
+                <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80"
+                     alt="Luxury Salmon">
+
+                <div class="card-content">
+
+                    <div class="dish-number">02</div>
+
+                    <h3>Imperial Salmon</h3>
+
+                    <p>
+                        Premium salmon served with fresh vegetables,
+                        delicate herbs and saffron butter.
+                    </p>
+
+                    <span>₹2,400</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- DISH 3 -->
+            <div class="menu-card">
+
+                <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=800&q=80"
+                     alt="Luxury Dessert">
+
+                <div class="card-content">
+
+                    <div class="dish-number">03</div>
+
+                    <h3>Golden Indulgence</h3>
+
+                    <p>
+                        A luxurious dessert made with Belgian chocolate,
+                        vanilla cream and seasonal berries.
+                    </p>
+
+                    <span>₹1,250</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- LUXURY EXPERIENCE -->
+    <section class="experience">
+
+        <div class="experience-content">
+
+            <p class="gold-text">
+                AN EXCEPTIONAL EVENING
+            </p>
+
+            <h2>
+                Elegance Beyond<br>
+                The Ordinary
+            </h2>
+
+            <p>
+                Sophisticated interiors. World-class cuisine.
+                Exceptional service. Unforgettable memories.
+            </p>
+
+            <a href="#reserve" class="gold-btn">
+                DISCOVER ÉLITE
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- RESERVATION -->
+    <section class="reserve" id="reserve">
+
+        <p class="gold-text center">YOUR TABLE AWAITS</p>
+
+        <h2 class="section-title">
+            Make a Reservation
+        </h2>
+
+
+        <form id="reservationForm">
+
+            <div class="form-row">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your Name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Email Address"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-row">
+
+                <input
+                    type="date"
+                    id="date"
+                    required
+                >
+
+                <select id="guests">
+
+                    <option>2 Guests</option>
+                    <option>3 Guests</option>
+                    <option>4 Guests</option>
+                    <option>5 Guests</option>
+                    <option>6+ Guests</option>
+
+                </select>
+
+            </div>
+
+
+            <button type="submit" class="gold-btn">
+                CONFIRM RESERVATION
+            </button>
+
+        </form>
+
+        <p id="message"></p>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-logo">ÉLITE</div>
+
+        <p>
+            Fine Dining • Exceptional Taste • Timeless Luxury
+        </p>
+
+        <p class="copyright">
+            © 2026 ÉLITE Restaurant. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script2.js"></script>
+
+</body>
+</html>
